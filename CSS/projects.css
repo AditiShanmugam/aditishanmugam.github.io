@@ -1,0 +1,89 @@
+body {
+  font-family: Quicksand, sans-serif;
+  background-color: black;
+}
+
+img {
+  margin: 1em;
+  height: 170px;
+  width: 170px;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+.level1 {
+  font: Medium 500;
+  font-size: 30px;
+  color: lightgray;
+}
+
+.level2 {
+  text-align: "left";
+  font: Medium 500;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.level3 {
+  text-align: "left";
+  font: regular 300;
+  color: #aaaaaa;
+  font-size: 15px;
+}
+.level4 {
+  text-align: "left";
+  font: regular 300;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+#jt1 {
+  padding-top: 2em;
+  font-size: 18px;
+  font: Regular 300;
+  word-spacing: 30px;
+}
+
+#jt2 {
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+#jt3 {
+  padding-top: 2em;
+  padding-right: 15em;
+}
+
+.lin1 {
+  margin-left: 30em;
+  margin-right: 30em;
+  border-width: 1px;
+  color: lightgray;
+}
+
+
+.lin2 {
+  margin-left: 36em;
+  margin-right: 35em;
+  border-width: 1px;
+  color: lightgray;
+}
+
+#col {
+    padding-top: 1em;
+    padding-bottom: 10em;
+}
+
+.Projpix {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}

@@ -1,0 +1,84 @@
+body{
+  font-family: Quicksand, sans-serif;
+  background-color: black;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
+
+.stuff {
+  text-decoration: underline;
+  color: #aaaaaa;
+}
+
+.stuff:hover {
+  color: lightgray;
+}
+
+.lin1 {
+  margin-left: 30em;
+  margin-right: 30em;
+  border-width: 1px;
+  color: white;
+}
+
+.lin2 {
+  margin-left: 36em;
+  margin-right: 35em;
+  border-width: 1px;
+  color: white;
+}
+
+.level1 {
+    padding-top: 1em;
+  font: Medium 500;
+  font-size: 30px;
+  color: lightgray;
+}
+
+.level2 {
+    font: Medium 50;
+    font-size: 15px;
+    color: lightgray;
+}
+#jt1 {
+  padding-top: 90px;
+}
+
+#jt2 {
+ padding-top: 10px;
+ font-size: 18px;
+ font: Regular 400;
+ word-spacing: 30px;
+}
+
+#jt3 {
+  padding-top: 1em;
+  margin-left: 25em;
+  margin-right: 25em;
+  font: Light 300;
+}
+
+#jt4 {
+  padding-top: 2em;
+  word-spacing: 10px;
+  text-align: center;
+}
+
+#txt1 {
+  color: lightgrey;
+}
