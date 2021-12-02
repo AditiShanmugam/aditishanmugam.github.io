@@ -1,0 +1,134 @@
+body {
+  font-family: Quicksand, sans-serif;
+  background-color: #222831;
+}
+
+img {
+  margin: 1em;
+  height: 170px;
+  width: 170px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+a {
+  color: #00ADB5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.level1 {
+  font: Medium 500;
+  font-size: 30px;
+  color: white;
+}
+
+.level2 {
+  text-align: "left";
+  font: Medium 500;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.level3 {
+  text-align: "left";
+  font: regular 300;
+  color: #aaaaaa;
+  font-size: 15px;
+}
+.level4 {
+  text-align: "left";
+  font: regular 300;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.level_contact {
+  font: Medium 50;
+  font-size: 15px;
+  color: lightgray;
+  word-spacing: 2px;
+}
+
+#jt1 {
+  padding-top: 2em;
+  font-size: 18px;
+  font: Regular 300;
+  word-spacing: 30px;
+}
+
+#jt2 {
+  text-align: "center";
+  margin-left: 12em;
+  margin-right: 12em;
+  margin-top: 2em;
+}
+
+#jt3 {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#jt4 {
+  padding-top: 2em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+#jt_contact {
+  padding-top: 10em;
+  font-size: 18px;
+  font: Regular 400;
+  word-spacing: 20px;
+ }
+
+.lin1 {
+  margin-left: 30em;
+  margin-right: 30em;
+  border-width: 1px;
+  color: lightgray;
+}
+
+
+.lin2 {
+  margin-left: 36em;
+  margin-right: 35em;
+  border-width: 1px;
+  color: lightgray;
+}
+
+.lin3 {
+  color: lightgray;
+  border-width: 1px;
+}
+
+#col {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 20em;
+}
+
+.Projpix {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+#con1{
+  margin-left: 10em;
+  margin-bottom: -7em;
+}
+
+#r1{
+  margin-top: 2em;
+  margin-bottom: -10em;
+}
