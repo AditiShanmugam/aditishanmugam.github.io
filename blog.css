@@ -1,6 +1,6 @@
 body {
   font-family: Quicksand, sans-serif;
-  background-color: black;
+  background-color: #222831;
 }
 
 img {
@@ -10,7 +10,7 @@ img {
 }
 
 a {
-  color: lightgrey;
+  color: #00ADB5;
   text-decoration: none;
 }
 
@@ -37,6 +37,13 @@ a:hover {
   color: #aaaaaa;
 }
 
+.level_contact {
+  font: Medium 50;
+  font-size: 15px;
+  color: lightgray;
+  word-spacing: 2px;
+}
+
 #jt1 {
   padding-top: 2em;
   font-size: 18px;
@@ -55,6 +62,12 @@ a:hover {
   text-align: center;
 }
 
+#jt_contact {
+  padding-top: 4em;
+  font-size: 18px;
+  font: Regular 400;
+  word-spacing: 20px;
+ }
 
 
 .lin1 {
