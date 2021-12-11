@@ -19,7 +19,9 @@ body{
 }
 
 .container {
+  vertical-align: middle;
   display: flex;
+  width: 60%;
 
 }
 img {
