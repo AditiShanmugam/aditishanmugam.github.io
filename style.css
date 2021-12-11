@@ -18,6 +18,10 @@ body{
   object-fit: cover;
 }
 
+.container {
+  display: flex;
+
+}
 img {
   margin: 1em;
   height: 170px;
