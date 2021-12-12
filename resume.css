@@ -4,9 +4,8 @@ body {
 }
 
 img {
-  margin: 1em;
-  height: 170px;
-  width: 170px;
+  margin: auto;
+  
 }
 
 .avatar {
@@ -27,7 +26,7 @@ a:hover {
 }
 
 .container {
-  text-align: center;
+  align-items: center;
   margin-bottom: 10em;
 }
 
@@ -69,11 +68,13 @@ a:hover {
   font-size: 18px;
   font: Regular 300;
   word-spacing: 30px;
+  text-align: center;
+  margin: auto;
 }
 
 #jt2 {
-  text-align: "center";
-  margin: auto;
+  align-items: center;
+  text-align: center;
 }
 
 #jt3 {
@@ -92,6 +93,11 @@ a:hover {
   font-size: 18px;
   font: Regular 400;
   word-spacing: 20px;
+ }
+
+ #conmain {
+   align-items: center;
+   margin: auto;
  }
 
 .lin1 {
@@ -113,22 +119,30 @@ a:hover {
   color: lightgray;
   border-width: 1px;
 }
+#col1 {
+  margin: auto;
+  padding: 50px;
+  text-align: right;
+  max-width: 40%;
+}
 
 #col {
-    padding-top: 1em;
+    margin: auto;
+    text-align: left;
+    padding-top: 3em;
     padding-bottom: 2em;
-    padding-right: 20em;
 }
 
 .Projpix {
+    
     width: 220px;
     height: 220px;
     object-fit: cover;
 }
 
 #con1{
-  margin-left: 10em;
-  margin-bottom: -7em;
+  text-align: left;
+  margin: auto;
 }
 
 #r1{
