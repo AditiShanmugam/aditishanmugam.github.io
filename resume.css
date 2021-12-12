@@ -70,6 +70,7 @@ a:hover {
   word-spacing: 30px;
   text-align: center;
   margin: auto;
+  overflow-wrap: normal;
 }
 
 #jt2 {
