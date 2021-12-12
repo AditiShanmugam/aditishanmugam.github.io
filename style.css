@@ -116,8 +116,7 @@ a:hover {
   padding-top: 1em;
   font: Light 300;
   text-align: "center";
-  overflow: auto;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #jt_contact {
