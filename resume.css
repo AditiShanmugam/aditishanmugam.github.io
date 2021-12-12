@@ -122,14 +122,17 @@ a:hover {
 }
 #col1 {
   margin: auto;
-  padding: 50px;
-  text-align: right;
+  padding-left: 15em;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  text-align: left;
 }
 
 #col {
     margin: auto;
     text-align: justify;
-    padding-top: 3em;
+    padding-top: -3em;
+    padding-right: 5em;
     padding-bottom: 2em;
 }
 
