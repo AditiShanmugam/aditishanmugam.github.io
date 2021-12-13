@@ -34,6 +34,7 @@ a:hover {
   font: Medium 500;
   font-size: 30px;
   color: white;
+  padding-bottom: 3em;
 }
 
 .level2 {
@@ -121,11 +122,19 @@ a:hover {
   border-width: 1px;
 }
 #col1 {
+    margin: auto;
+    text-align: center;
+    padding-top: -3em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+
+#col2 {
   margin: auto;
-  padding-left: 15em;
-  padding-top: 2em;
-  padding-bottom: 5em;
-  text-align: left;
+  text-align: justify;
+  padding-top: -3em;
+  padding-right: 5em;
+  padding-bottom: 2em;
 }
 
 #col {
@@ -144,9 +153,10 @@ a:hover {
 }
 
 #con1{
-  text-align: left;
+  text-align: right;
   margin: auto;
 }
+
 
 #r1{
   margin-top: 2em;
