@@ -81,6 +81,10 @@ a:hover {
     color: lightgray;
 }
 
+.level3{
+  color: #aaaaaa;
+}
+
 .level2b {
   text-align: "left";
   font: Medium 500;
