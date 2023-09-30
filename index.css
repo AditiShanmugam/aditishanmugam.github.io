@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     font-family: barlow, sans-serif;
+    font-size: large;
     
 }
 
@@ -357,11 +358,11 @@ navigation-bar {
   }
 
   #jt_workex_2 {
-    /* margin: auto;
-     */
+    margin: auto;
+    position: relative;
     padding-left: 4%;
     align-items: left;
-    text-align: center;
+    /* text-align: center; */
   }
   
   #con_workexp_align {
@@ -371,10 +372,10 @@ navigation-bar {
   
   #col_custom_workex {
       margin: auto;
-      text-align: justify;
+      /* text-align: justify; */
       /* padding-top: -3em; */
-      padding-right: 5em;
-      padding-bottom: 2em;
+      /* padding-right: 5em; */
+      /* padding-bottom: 2em; */
   }
 
   #col_custom_workex2 {
@@ -444,37 +445,37 @@ navigation-bar {
 
   .Projpix {
     
-    width: 320px;
-    height: 320px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
 .level1 {
-    font: Medium 500;
+    /* font: Medium 500; */
     text-align: "left";
-    font-size: 30px;
+    /* font-size: 30px; */
     color: rgb(4, 4, 4);
     padding-bottom: 3em;
   }
   
   .level2 {
     text-align: "left";
-    font: Medium 500;
-    font-size: 20px;
+    /* font: Medium 500; */
+    /* font-size: 20px; */
     color: #030303;
   }
   
   .level3 {
     text-align: "left";
-    font: regular 300;
+    /* font: regular 300; */
     color: #000000;
-    font-size: 15px;
+    /* font-size: 15px; */
   }
   .level4 {
     text-align: "left";
-    font: regular 300;
+    /* font: regular 300; */
     color: #000000;
-    font-size: 13px;
+    /* font-size: 13px; */
   }
 
   .proj_row{ 
@@ -490,6 +491,7 @@ navigation-bar {
   #con1{
     text-align: left;
     margin: auto;
+    padding-right: 5em;
   }
 
   #proj_col1 {
