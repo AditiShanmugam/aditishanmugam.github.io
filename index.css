@@ -445,8 +445,8 @@ navigation-bar {
 
   .Projpix {
     
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -498,7 +498,7 @@ navigation-bar {
     margin: auto;
     text-align: center;
     padding-top: -3em;
-    padding-right: 5em;
+    padding-right: 3em;
     padding-bottom: 2em;
 }
 
