@@ -95,22 +95,26 @@
             </div>
             <div class="col" id="col_custom_workex2">
               <p class="workex_lvl_3">Primary Tasks and Responsibilities:</p> 
-              <ul class="workex_lvl_3">
-                <li>Overlooking the development of an in-house image annotation tool and curation of custom datasets for deep learning
-                projects and managing a team of 3 members.</li>
-                <li>Integrating object tracking algorithms with custom-trained YoloV7 models for improved real-time object detection and
-                tracking on jetson devices for real-time Inference using CUDA, onnxruntime with C++.</li>
-                <li>Responsible for development of an object detection and tracking pipeline to be deployed on Unmanned Aerial Vehicles
-                using C++ for deployment on Jetson devices using OpenCV and Gstreamer.</li>
-                <!-- <li>Developed utility modules and communication modules for data transfer over Sockets, Ethernet, serial port in C++ for
-                UAVs.</li> -->
-                <!-- <li>Contributed to development of pipelines to perform frame registration on images captured by UAVs to Satellite Images
-                for Geo Location using C++, OpenCV.</li> -->
-                <li>Modified and fine-tuned existing algorithms for Template Matching, Sparse, and Dense Optic Flow to achieve close to
-                100.0% frame registration in every test case.</li>
-                <!-- <li>Delivered performance on a Real-time system on HD video with latency below 500ms, and throughput of 25fps, on a
-                moderate capacity GPU.</li> -->
-              </ul>
+
+              <!-- <ol> -->
+                1. System for Tracking And Recognition of Targets - iSTART
+                <ul class="workex_lvl_3">
+                  
+                  <li>Developed a robust object recognition and tracking pipeline to be deployed within Unmanned Aerial Vehicles (UAVs) by
+                    implementing tracking algorithms such as DeepSort with custom-trained YoloV7 models.</li>
+                  <li>Used frameworks and libraries such as OpenCV, TensorRT, and onnxruntime in C++ to architect and develop the system, optimizing it for deployment on Jetson devices.</li>
+                  <li>Overlooking the development of an in-house image annotation tool and curation of custom datasets for deep learning
+                    projects and managing a team of 3 members.</li>
+                </ul>
+                
+                2. Real-time Georeferencing of Aerial Infrared (IR) Video - GeoAIR
+                <ul class="workex_lvl_3">
+                  
+                  <li>Employed Python and OpenCV to develop a pipeline to perform precise frame registration, aligning UAV-captured images with satellite imagery for accurate geo-location.</li> 
+                  <li>Incorporated template matching algorithms with sparse, and dense optic flow to achieve close to 90% frame registration and delivered performance on HD videos with latency below 500ms, and throughput of 25fps, on a moderate capacity GPU.</li>
+                </ul>
+              <!-- </ol> -->
+              
           </div>
         </div>
 
@@ -127,15 +131,18 @@
             </div>
             <div class="col" id="col_custom_workex2">
                 <p class="workex_lvl_3">Primary Tasks and Responsibilities:</p> 
+
+              1. Source Free Multi-Label Domain Adaptation - SF-MLDA
               <ul class="workex_lvl_3">
-                <li>Integrated Superpixel Masking and Inpainting (SMAI) into a custom GAN and Autoencoder based network developed
-                using Pytorch for Anomaly Detection and Correction.</li>
-                <li>Incorporated Multi-Exposure Fusion for synthetic image enhancement into the pipeline, to reduce artifacts produced in
-                the generated images and achieve an overall accuracy of 80.0%.</li>
-                <li>Contributed to the development of a novel framework to perform Source-Free Multi-Label Domain Adaptation
-                (SF-MLDA) using Pytroch.</li>
-                <li>Researched various techniques to tackle noise in training data and Integrated the Divide-Mix algorithm into SF-MLDA
-                to improve accuracy by 7.0% </li>
+                <li>Played a key role in the development of an innovative framework for performing Source-Free Multi-Label Domain Adaptation (SF-MLDA).</li>
+                <li>Successfully integrated a co-teaching based algorithm called Divide-Mix to handle noise in training data within the SF-MLDA framework, resulting in a 7.0% improvement in accuracy.</li>
+            </ul>
+
+            2. Superpixel Masking and Image Inpainting - SMAI
+              <ul class="workex_lvl_3">
+                <li>Assisted in the development of two networks inspired by GANs and Autoencoders respectively for anomaly detection, localization and correction.</li>
+                <li>Experimented with structural loss and reconstruction loss to establish a correlation on image inpainting and reconstruction.</li>
+                <li>Enhanced the pipeline by incorporating multi-exposure fusion techniques for synthetic image regeneration, achieving an impressive 80.0 per cent overall accuracy rate.</li>
             </ul>
           </div>
         </div>
@@ -155,14 +162,13 @@
             </div>
             <div class="col" id="col_custom_workex2">
                   <p class="workex_lvl_3">Primary Tasks and Responsibilities:</p> 
+                1. Zero-shot food detection
                 <ul class="workex_lvl_3">
-                  <li>Developed an end-to-end functional application to identify various for zero-shot food detection present in an in-oven
-                  setting using the Contrastive Language-Image Pre-training model (CLIP) by OpenAI.</li>
+                  <li>Created an end-to-end functional web application using streamlit performing zero-shot object detection for food in an in-oven setting.</li>
+                  <li>Established baselines with ResNet50 and ResNet101 networks by transfer lerning and training from scratch on custom datasets.</li>
+                  <li>Leveraged a state-of-the-art Contrastive Language-Image Pre-training model - CLIP by OpenAI to achieve a final Top-1 accuracy of 97.22% and Top-3 accuracy of 100.0% on a custom dataset containing only 16 images per class.</li>
                   <li>Developed web scrapers to generate custom datasets by scraping food blogs, and Instagram using Scrapy and Selenium.
-                  Increased the size of the dataset using data augmentation techniques.</li>
-                  <li>Performed transfer learning on ResNet50 and ResNet101 variants to determine baseline results. Obtained a final Top-1
-                  accuracy of 97.22% and Top-3 accuracy of 100.0% using a custom dataset containing only 16 images per class.</li>
-
+                    Increased the size of the dataset using data augmentation techniques.</li>
                 </ul>
 
             </div>
@@ -205,10 +211,10 @@
             </div>
             <div class="col" id="col">
               <p class="level2">Multi-Modal Machine Learning for Object Detection.</p>
-              <p class="level3">This work was conducted as part of the course completion requirement for my Undergraduate degree under the guidance of <a href = https://bmsit.irins.org/profile/115991>Prof.Pratibha N </a>, 
+              <p class="level3">This work was conducted as my Undergraduate degree thesis under the guidance of <a href = https://bmsit.irins.org/profile/115991>Prof.Pratibha N </a>, 
                 assistant professor at the Department of Electronics and Telecommunications Engineering at <a href="https://bmsit.ac.in">BMS Institute of Technology and Management</a>.
-                The main aim of this project is to demonstrate the significant improvements in Computer Vision tasks upon integrating contextual understanding used in Natural Language Processing tasks. 
-                The Contrastive Language Image Pretraining task uses multimodal data, Image-Text pairs, in Zero-shot or Few-shot settings. This work has been accepted to the <a href="https://scril.sau.int/ijcaci22/">6th International Joint
+                The main aim of this project is to demonstrate the significant improvements in Computer Vision upon integrating contextual understanding used in Natural Language Processing tasks. 
+                The Contrastive Language Image Pretraining task uses multimodal data as Image-Text pairs, in Zero-shot or Few-shot settings. This work has been accepted to the <a href="https://scril.sau.int/ijcaci22/">6th International Joint
                 Conference on Advances in Computational Intelligence (IJCACI 2022)</a>.
                 <p class="level4"><a href="https://link.springer.com/chapter/10.1007/978-981-99-1435-7_2">Paper </a> | <a href="https://github.com/AditiShanmugam/Thesis-CLIP-For-Object-Detection"> Code</a></p>
               </p>
@@ -222,9 +228,9 @@
             </div>
             <div class="col" id="col">
               <p class="level2">Source Free - Multi Label Domain Adaptation</p>
-              <p class="level3">This work introduces a novel concept of Source-Free Multi-Label Domain Adaptation (SF-MLDA) using graph convolution networks (GCN) and Co-teaching based methods. In summary, this research work aims to improve the task of adapting a deep learning model to a new domain (distribution of data) where instances have multiple labels, in the absense of a labeled source domain to aid in the adaptation process.
-                This is an ongoing research project which was a part of my internship with the Indian Institute of Science, Bangalore. My work was carried out in coalition with <a href="https://www.linkedin.com/in/vikash0837/">Vikash Kumar</a> a Masters student and his advisor <a href="https://cds.iisc.ac.in/people/faculty/name/anirban-chakraborty/">Prof.Anirban Chakraborty</a> 
-                at the <a href="https://iisc.ac.in">Indian Institute of Science</a>, during my Internship at the <a href="http://visual-computing.in/home/">Visual Computing Lab</a>. The code for this work is currently underway and will be available upon publication of it's paper.</p>
+              <p class="level3">This work introduces a novel concept of Source-Free Multi-Label Domain Adaptation (SF-MLDA) using graph convolution networks (GCN) and Co-teaching based methods to tackle the problem of noisy labels. In summary, this research work aims to improve the task of adapting a deep learning model to a new domain (distribution of data) where instances have multiple labels, in the absence of a labeled source domain to aid in the adaptation process.
+                This was a part of my internship with the Indian Institute of Science, Bangalore. My work was carried out in coalition with <a href="https://www.linkedin.com/in/vikash0837/">Vikash Kumar</a> a Masters student and his advisor <a href="https://cds.iisc.ac.in/people/faculty/name/anirban-chakraborty/">Prof.Anirban Chakraborty</a> 
+                at the <a href="https://iisc.ac.in">Indian Institute of Science</a>, during my Internship at the <a href="http://visual-computing.in/home/">Visual Computing Lab</a>.</p>
             </div>
           </div> 
           <br></br>
@@ -237,7 +243,7 @@
               <p class="level2">Superpixel Masking and Image Inpainting with Multi Exposure Fusion</p>
               <p class="level3"> The aim of this resarch was to improve Anomaly Detection and Correction using Supermixel Masking and Inpainting, in order to improve existing methods, the network was designed by employing a mask based curriculum learning approach and incorporating multi image exposure. 
                 Two variants of the network are developed taking inspiration from GAN and Autoencoder based architectures, and this work hopes to improve applications such as image restoration, where damaged or missing parts of an image need to be reconstructed while maintaining the overall image quality.
-                I worked with <a href="https://www.linkedin.com/in/adityakumarpal17059/">Aditya Kumar Pal</a> a former Masters student and his advisor <a href="https://cds.iisc.ac.in/people/faculty/name/anirban-chakraborty/">Prof.Anirban Chakraborty</a> at the <a href="https://iisc.ac.in">Indian Institute of Science</a>, during my Internship at the <a href="http://visual-computing.in/home/">Visual Computing Lab</a>. The code for the project is yet to be released.</p>
+                I worked with <a href="https://www.linkedin.com/in/adityakumarpal17059/">Aditya Kumar Pal</a> a former Masters student and his advisor <a href="https://cds.iisc.ac.in/people/faculty/name/anirban-chakraborty/">Prof.Anirban Chakraborty</a> at the <a href="https://iisc.ac.in">Indian Institute of Science</a>, during my Internship at the <a href="http://visual-computing.in/home/">Visual Computing Lab</a>.</p>
               <!-- <p class="level4"><a href="">Code</a></p> -->
             </div>
           </div>
@@ -251,7 +257,7 @@
             </div>
             <div class="col" id="col1">
               <p class="level2">Dry Waste Classification Using Machine Learning and IoT</p>
-              <p class="level3"> The primary objective of this project was to develop a simple yet efficient machine learning algorithm to perform waste classification on organic and inorganic waste. 
+              <p class="level3"> The primary objective of this project was to develop a simple yet efficient machine learning powered device to perform waste classification on organic and inorganic waste. 
                 Additionally, a paper about the work was submitted to the <a href="https://www.amity.edu/iciem2021/">2nd International Conference On Intelligent Engineering And Management, 2021.</a> 
                 The project also aquired small scale funding of INR 20,000 to develop a fully functional prototype to scale. 
                 This project was carried out under <a href="https://bmsit.irins.org/profile/115992"> Dr. Mallikarjuna Gowda C.P</a>, Associate professor at the Department of Electronics and Telecommunications Engineering at <a href="https://bmsit.ac.in">BMS Institute of Technology and Management</a>.</p>
@@ -310,7 +316,7 @@
           >
           </a>
           <a
-            href="mailto:aditishanmugam1@gmail.com"
+            href=mailto:aditishanmugam1@gmail.com
             style="font-size: 25px"
             class="fa-solid fa-envelope"
             id="footer-nav-anchors"
