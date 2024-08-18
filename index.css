@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #ffffff;
     font-family: barlow, sans-serif;
@@ -11,8 +15,7 @@ a {
   }
   
   a:hover {
-    color: rgb(0, 41, 174);
-    text-decoration: none;
+    color: rgb(93, 160, 227);
   }
 
 /* Header */
@@ -26,10 +29,11 @@ navigation-bar {
 }
 
 .nav-bar {
-    padding-top: 10px;
-    width: 40%;
-    height: 10%; 
-    font-size: 15px; 
+  top: 0;
+  z-index: 1000;
+  height: 10%; 
+  width: 40%;
+  background-color: white;
 }
 
 #nav-anchors {
@@ -108,7 +112,6 @@ navigation-bar {
   margin: 5px;
   overflow: hidden;
   position: relative;
-  /* font-family: Arial, Helvetica, sans-serif; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 300ms;
 }
@@ -264,7 +267,7 @@ navigation-bar {
   font-family: "MockFlowFont";   
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  /* -webkit-line-clamp: 3; */
   overflow: hidden;
 }    
 
@@ -311,15 +314,12 @@ navigation-bar {
   }
   
   .footer-basic .social > a {
-    /* font-size:30px; */
     text-decoration:none;
     width:40px;
     height:40px;
     line-height:40px;
     display:inline-block;
     text-align:center;
-    /* border-radius:50%; */
-    /* border:1px solid #ccc; */
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -348,12 +348,10 @@ navigation-bar {
   }
 
   #jt_workex {
-    /* padding-top: 2em; */
     font-size: 18px;
     font: Regular 300;
     word-spacing: 30px;
     text-align: center;
-    /* margin: auto; */
     overflow-wrap: normal;
   }
 
@@ -362,7 +360,6 @@ navigation-bar {
     position: relative;
     padding-left: 4%;
     align-items: left;
-    /* text-align: center; */
   }
   
   #con_workexp_align {
@@ -372,10 +369,6 @@ navigation-bar {
   
   #col_custom_workex {
       margin: auto;
-      /* text-align: justify; */
-      /* padding-top: -3em; */
-      /* padding-right: 5em; */
-      /* padding-bottom: 2em; */
   }
 
   #col_custom_workex2 {
@@ -395,32 +388,9 @@ navigation-bar {
   }
 
   .workex_title {
-    /* font: Medium 500; */
     font-size: 20px;
     color: white;
-    /* padding-bottom: 3em; */
   }
-   /* 
-  .workex_lvl_2 {
-    text-align: "left";
-    font: Medium 500;
-    font-size: 20px;
-    color: #aaaaaa;
-  }  
-  
- .workex_lvl_3 {
-    text-align: "justify";
-    font: regular 300;
-    color: #000000;
-    font-size: 15px;
-  } 
-   
-  .workex_lvl_4 {
-    text-align: "left";
-    font: regular 300;
-    color: #aaaaaa;
-    font-size: 13px;
-  } */
   
   .workex_img {
     vertical-align: middle;
@@ -436,10 +406,8 @@ navigation-bar {
   }
 
   #proj_col1 {
-    /* margin: auto; */
     align-items: right;
     padding-top: -3em;
-    /* padding-right: 1em; */
     padding-bottom: 2em;
 }
 
@@ -448,26 +416,27 @@ navigation-bar {
     width: 450px;
     height: 450px;
     object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Projpix:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .level1 {
-    /* font: Medium 500; */
     text-align: "left";
-    /* font-size: 30px; */
     color: rgb(4, 4, 4);
     padding-bottom: 3em;
   }
   
   .level2 {
     text-align: "left";
-    /* font: Medium 500; */
-    /* font-size: 20px; */
     color: #030303;
   }
   
   .level3 {
     text-align: "left";
-    /* font: regular 300; */
     color: #000000;
     /* font-size: 15px; */
   }
