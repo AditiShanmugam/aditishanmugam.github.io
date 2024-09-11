@@ -343,7 +343,7 @@ navigation-bar {
     vertical-align: middle;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 5%;
     object-fit: cover;
   }
 
